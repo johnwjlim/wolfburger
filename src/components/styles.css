@@ -1,0 +1,165 @@
+h1, h2, h5 {
+    font-family: "Montserrat", "sans-serif";
+    color: white;
+}
+
+p {
+    font-family: "Open Sans", "sans-serif";
+    color: white;
+}
+
+.hero {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+#header {
+    text-align: center;
+}
+
+#header {
+    max-width: 65%;
+}
+
+#header .col {
+    padding: 0
+}
+
+#header h5 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top:2em;
+
+}
+
+h5:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+#heroLogo {
+    /* position: absolute; */
+    max-width: 25%;
+    
+}
+
+#heroText {
+    padding-top: 38%;
+    text-align: center;
+    /* height: 80%; */
+    margin-bottom: 6%;
+}
+
+#heroText h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#gigi {
+    /* padding-top: 5em;
+    padding-bottom: 5em; */
+    padding-top: 8em;
+    padding-bottom: 3em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+#quote {
+    font-family: "Lora";
+    font-size: 28px;
+    font-weight: 400;
+    color: #484848;
+}
+
+.blockquote-footer {
+    font-family: "Open Sans";
+    font-size: 18px;
+}
+
+#imageGrid {
+    max-width: 70%;
+    margin-bottom: 5%;
+    /* max-height: 70% */
+}
+
+#menuContainer {
+    padding: 5%;
+}
+
+#menuHeader {
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+
+#menuGrid {
+    padding: 5%;
+}
+
+#menuTextWrapper {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#menuText {
+    font-weight: 300;
+    font-size: 23px;
+}
+
+#imageCol {
+    text-align: center;
+}
+
+#menuImage {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* margin-left: 3%;
+    margin-right: 3%; */
+    padding-left: 12%;
+    /* padding-right: 8%; */
+}
+
+@media screen and (max-width: 992px) {
+    #heroText h2 {
+        font-size: 18px;
+    }
+
+    #heroText {
+        margin-bottom: 4%;
+    }
+    #gigi {
+        padding-top: 3em;
+        padding-bottom: 3em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    #quote {
+        font-size: 24px;
+    }
+
+    #menuImage {
+        padding: 6%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #header {
+        display: none;
+    }
+
+    #heroText {
+        padding-top: 45%;
+        margin-bottom: 5%;
+    }
+
+    #menuText {
+        font-size: 20px;
+    }
+
+    #menuImage {
+        padding: 3%;
+    }
+}
+
